@@ -107,6 +107,7 @@ def menu_scene():
     image_bank_mt_background = stage.Bank.from_bmp16("mt_game_studio.bmp")
 
     # The Text Objects
+    # Text for menu scene
     text = []
     text1 = stage.Text(
         width=29, height=12, font=None, palette=constants.RED_PALETTE, buffer=None
@@ -185,6 +186,7 @@ def tutorial_scene():
     image_bank_mt_background = stage.Bank.from_bmp16("mt_game_studio.bmp")
 
     # The Text Objects
+    # the instructions / tutorial page
     text = []
     text1 = stage.Text(
         width=29, height=12, font=None, palette=constants.RED_PALETTE, buffer=None
@@ -508,6 +510,7 @@ def game_over_scene(final_score):
     )
 
     # add text objects
+    # text for scoreboard
     text = []
     text1 = stage.Text(
         width=29, height=14, font=None, palette=constants.RED_PALETTE, buffer=None
